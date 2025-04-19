@@ -1,10 +1,8 @@
 <script setup>
-
+import saver from '/src/view/saver.vue';
 </script>
-
 <template>
-  <router-view>
-  </router-view>
+  <saver />
 </template>
 
 <style>
