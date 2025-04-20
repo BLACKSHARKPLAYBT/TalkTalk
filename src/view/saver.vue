@@ -14,8 +14,8 @@ let router = useRouter();
 let searchValue = ref('')
 
 /*路由切换*/
-function changeRouter() {
-  console.log('切换路由');
+function init() {
+  router.push('/news');
 }
 
 function handleClick(tab,event) {
@@ -41,6 +41,8 @@ function handleClick(tab,event) {
       break;
   }
 }
+
+init()
 </script>
 
 <template>
